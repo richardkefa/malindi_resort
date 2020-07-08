@@ -1,0 +1,29 @@
+.container{
+  background-color: #9ACD32;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #006400;
+}
+nav>ul{
+  list-style: none;
+}
+
+nav>ul>li{
+  display: inline-block;
+  padding: 3px;
+  text-align: center;
+}
+
+nav>ul>li>a{
+   text-decoration: none;
+   font-size: large;
+   color: black;
+   font-weight: bold;
+}
+
+footer{
+  background-color: #006400;
+}
